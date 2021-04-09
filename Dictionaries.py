@@ -63,7 +63,7 @@ fetch the key and the value from the dictionary
 for elem in emp_keys:
     print(elem,emp[elem])
 print(list(emp.items()))'''
-#When a dictionary is converted to a list, then we get a list of tuples
+##When a dictionary is converted to a list, then we get a list of tuples
 
 new_dict = {'Name':'Gowrav','Age':24,'Place':'India'}
 
