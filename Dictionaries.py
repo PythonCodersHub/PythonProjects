@@ -1,4 +1,4 @@
-'''emp = {"Mohan":5000,"Madhu":6000,"Raghu":2500,"Priya":6000}
+emp = {"Mohan":5000,"Madhu":6000,"Raghu":2500,"Priya":6000}
 #fetching the salary of employee Priya
 print(emp["Priya"])
 Adding a new key value
@@ -62,9 +62,21 @@ For every element in the sorted list of keys
 fetch the key and the value from the dictionary
 for elem in emp_keys:
     print(elem,emp[elem])
-print(list(emp.items()))'''
+print(list(emp.items()))
 ##When a dictionary is converted to a list, then we get a list of tuples
 
-new_dict = {'Name':'Gowrav','Age':24,'Place':'India'}
+new_dict = {'Name':'Gowrav','Age':24,'Country':'India'}
 
 print(new_dict.keys())
+
+# To Add new terms to the dictionary we use
+
+new_dict['City']='Hyderabad'
+
+print(new_dict)
+
+punt = [1,2,3,4,5,6]
+
+from functools import reduce
+add_punt =[i for i in punt if i%2==0]
+print(add_punt)
