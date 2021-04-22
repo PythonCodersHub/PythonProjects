@@ -111,3 +111,5 @@ class Paint:
 p = Paint('Red')
 print('Done !')
 p.__init__('Violet')
+
+print('Done!')
