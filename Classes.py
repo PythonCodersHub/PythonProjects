@@ -83,12 +83,15 @@ class Bird:
         self.colour = colour
         self.span = span
 
+    # def display(self,country):
+    #     self.country = country
+    #     return f'{self.name} is from {country}'
     def display(self,country):
-        
-        return f'{self.name} is from {country}'
+        self.country = 'india'
+        return f'{self.name} is from {self.country}'
 
     def diet(self,prey):
-        return f'{self.name} from {country}  eats {prey}'
+        return f'{self.name} from {self.country}  eats {prey}'
 auto = Bird('Eagle','Brown',1)
 
 print(auto.display('India'))
@@ -102,9 +105,3 @@ class Paint:
         print(self)
         print(self.name)
         print('Constructor is defined')
-
-p = Paint('Red')
-print('Done !')
-p.__init__('Violet')
-
-print('Done')
