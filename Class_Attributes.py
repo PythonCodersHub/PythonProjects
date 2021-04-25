@@ -18,3 +18,22 @@ del sprint.destination
 # print(sprint.eta())
 
 
+class Calculator:
+    def Addition(self,number1,*number2):
+        new_list = list(number2)
+        new_list.append(number1)
+        return sum(new_list)
+    
+    def Multiplication(self,number1,*number2):
+        new_list = list(number2)
+        new_list.append(number1)
+        prod = 1
+        for i in new_list:
+            prod*=i
+        return prod
+
+
+calci = Calculator()
+print(calci.Addition(1,2,3,6,4,8).__dict__)
+
+#print(calci.Addition.__dict__)
