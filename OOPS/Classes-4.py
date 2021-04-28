@@ -81,9 +81,9 @@ class Name:
 
 
 """
-Setter and Getter Methods
+Setter and inheritter Methods
  """
-class SetGet:
+class Setinherit:
     def __init__(self,name):
         # This is the setter
         self.name = name
@@ -92,9 +92,9 @@ class SetGet:
         self.id=id
 
 #Setter Method
-# s = SetGet('Nani')
+# s = Setinherit('Nani')
 
-# # Getter Method
+# # inheritter Method
 # print(s.name)
 
 #  Class Method
@@ -102,7 +102,7 @@ class SetGet:
 class Pizza:
     radius=35
     @classmethod
-    def get_radius(cls):
+    def inherit_radius(cls):
         return cls.radius
 
 #  Can be accessed using Object
@@ -110,7 +110,7 @@ class Pizza:
 
 # p = Pizza()
 # #  Can be accessed using Object
-# p.get_radius()
+# p.inherit_radius()
 
 
 

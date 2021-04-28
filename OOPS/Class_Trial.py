@@ -175,7 +175,7 @@ class Hyderabad:
         print(Hyderabad.name)
 Hyderabad.captain()
 
-# Setter and Getter Method
+# Setter and inheritter Method
 
 class Professsion:
     def __init__(se)

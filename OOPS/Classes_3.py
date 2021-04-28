@@ -2,7 +2,7 @@
 
 class Light:
     def __init__(self,name,distance,colour):
-        # To get the address of class
+        # To inherit the address of class
         # print(self)
         self.established = 1975
         self.name = name
