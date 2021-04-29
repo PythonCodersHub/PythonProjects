@@ -142,10 +142,10 @@ class Y(B,C):
 class P(Y,X):
     def m1(self):
         print("m1 from P")
-# print(A.mro())#AO
-# print(X.mro())#XABO
-# print(Y.mro())#YBCO
-# print(P.mro())#P
+# print(A.mro())
+# print(X.mro())
+# print(Y.mro())
+# print(P.mro())
 
 
 #  Accessing Different Values
