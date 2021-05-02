@@ -1,0 +1,7 @@
+a = ('a', 'b', 'c', 'd', 100 , 200)
+print(a + ('g', 25))
+print(type(a))
+print(a * 5)
+print(a[1 : -2])
+print(a[3])
+print(id(a))
