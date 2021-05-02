@@ -1,9 +1,9 @@
 age = 20
 if age>=20:
     print("Eligible to vote ")
-    print("REgister your vote at this ppoint")
+    print("REgister your vote at this point")
   
-  #ifelse  
+  #if else  
 age = 18
 if age>=20:
     print("Eligible to vote")

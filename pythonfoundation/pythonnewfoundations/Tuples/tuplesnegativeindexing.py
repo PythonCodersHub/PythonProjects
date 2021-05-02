@@ -1,0 +1,5 @@
+num = ('p', 'i', 'g', 'l', 'e', 't')
+print(num)
+print(num[-1])
+print(num[-3])
+print(num[-5])
