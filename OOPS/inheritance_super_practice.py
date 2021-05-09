@@ -101,14 +101,7 @@ class Lights(Road):
         print(super().roll) # super() can be used to access the static variables that are defined in the class
         print('Lights are used for vision at night !')
        
-# bent = Lights('Bentley',350)
-# bent.vision()
-
-class Food:
-    eat='Hand'
-    def __init__(self,prime,mix):
-        self.prime=prime
-        self.mix=mix
+# bent = Lights('Bentley',350)jl
     
     def Available(self):
         print(self.prime,self.mix)
@@ -193,10 +186,10 @@ class City(State):
     def place(self):
         print('Hyderabad')
 
-# class GlobalPosition(City):
-#     def place(self):
-#         City.place(self) # Accessing the method calling directly the class name
-#         super(State,self).place() # Accessing the parent class from the super method
+class GlobalPosition(City):
+    def place(self):
+        City.place(self) # Accessing the method calling directly the class name
+        super(State,self).place() # Accessing the parent class from the super method
 
 class GlobalPosition(City):
     @classmethod
